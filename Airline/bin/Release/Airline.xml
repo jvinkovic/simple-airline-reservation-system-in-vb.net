@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Airline
+</name>
+</assembly>
+<members>
+<member name="T:Airline.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources._988120305">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg611">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.bg62">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.login1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Airline.My.Resources.Resources.orb">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_flightDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PassengerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PlaneDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.ticketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_flightRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PassengerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PlaneRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.ticketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_flightRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PassengerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.tbl_PlaneRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSet.ticketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.tbl_flightTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.tbl_PassengerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.tbl_PlaneTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Airline.PlaneDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Airline.PlaneDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Airline.PlaneDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Airline.PlaneDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Airline.PlaneDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Airline.PlaneDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Airline.PlaneDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Airline.PlaneDataSetTableAdapters.TableAdapterManager.UpdateAll(Airline.PlaneDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Airline.PlaneDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
